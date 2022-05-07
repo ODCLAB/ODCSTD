@@ -1,4 +1,4 @@
-##### English | [简体中文](../zh-cn/源码排版.md)
+##### English | [简体中文](https://github.com/ODCLAB/odcstd/blob/main/zh-cn/源码排版.md)
 
 ## ✒Name
 

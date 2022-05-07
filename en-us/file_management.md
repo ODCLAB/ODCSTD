@@ -1,4 +1,4 @@
-English | [简体中文](../zn-ch/文件管理.md)
+English | [简体中文](https://github.com/ODCLAB/odcstd/blob/main/zh-cn/文件管理.md)
 
 ## 🗂️Directory Name
 
