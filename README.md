@@ -1,4 +1,4 @@
-# odcstd - Organized, Developed and Certification by ODCLAB
+# odcstd - Organized, Developed and Certified by ODCLAB
 
 #### English| [简体中文](README_zh-cn.md) 
 

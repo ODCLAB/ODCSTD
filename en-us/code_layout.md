@@ -19,9 +19,114 @@
     </tr>
     <tr>
     	<th>Capitalize the First Letter with Google-Style</th>
-        <td>constant<br/><code>#define CONSTANT_VALUE</code></td>
+        <td>macro, constant, enum<br/><code>#define CONSTANT_VALUE</code></td>
     </tr>	
 </table>
+
+
+- Hungarian notation for main names related to Windows APIs.
+
+<table>
+	<tr>
+		<th>Prefix</th>
+		<th>Mean</th>
+	</tr>
+    <tr>
+    	<td>a</td>
+        <td>array</td>
+    </tr>
+    <tr>
+    	<td>b</td>
+        <td>bool</td>
+    </tr>
+    <tr>
+    	<td>by</td>
+        <td>unsigned char(byte)</td>
+    </tr>
+    <tr>
+    	<td>c</td>
+        <td>char</td>
+    </tr>
+    <tr>
+    	<td>ch</td>
+        <td>tchar</td>
+    </tr>
+    <tr>
+    	<td>cb</td>
+        <td>cout of bytes</td>
+    </tr>
+    <tr>
+    	<td>f</td>
+        <td>flags（usually multiple bit values）</td>
+    </tr>
+    <tr>
+    	<td>fn</td>
+        <td>function</td>
+    </tr>
+    <tr>
+    	<td>h</td>
+        <td>handle</td>
+    </tr>
+    <tr>
+    	<td>i</td>
+        <td>integer</td>
+    </tr>
+     <tr>
+    	<td>n</td>
+        <td>short int</td>
+    </tr>
+    <tr>
+    	<td>l</td>
+        <td>long</td>
+    </tr>
+        <tr>
+    	<td>u</td>
+        <td>unsigned int</td>
+    </tr>
+    <tr>
+    	<td>ul</td>
+        <td>unsigned long</td>
+    </tr>
+    <tr>
+    	<td>w</td>
+        <td>WORD(unsigned short)</td>
+    </tr>
+    <tr>
+    	<td>dw</td>
+        <td>DWORD（unsigned long）</td>
+    </tr>
+    <tr>
+    	<td>p</td>
+        <td>pointer</td>
+    </tr>
+    <tr>
+    	<td>lp</td>
+        <td>long pointer</td>
+    </tr>
+    <tr>
+    	<td>s</td>
+        <td>string</td>
+    </tr>
+    <tr>
+    	<td>sz</td>
+        <td>zero terminated string</td>
+    </tr>
+    <tr>
+    	<td>tm</td>
+        <td>text metric</td>
+    </tr>
+    <tr>
+    	<td>x, y...</td>
+        <td>coordinates（short）</td>
+    </tr>
+    <tr>
+    	<td>v</td>
+        <td>void</td>
+    </tr>
+</table>
+
+- By default, the loop var uses `i`, `j`, `k`
+
 ### Suffix
 
 - Same Body Different Type
