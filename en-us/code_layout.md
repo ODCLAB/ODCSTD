@@ -37,7 +37,7 @@
     </tr>
     <tr>
     	<td>b</td>
-        <td>bool</td>
+        <td>boolean</td>
     </tr>
     <tr>
     	<td>by</td>
@@ -124,6 +124,7 @@
         <td>void</td>
     </tr>
 </table>
+
 
 - By default, the loop var uses `i`, `j`, `k`
 

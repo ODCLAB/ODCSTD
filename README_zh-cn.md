@@ -1,4 +1,4 @@
-# odcstd - 由ODCLAB组织制定并认证
+# ODCSTD - 由ODCLAB组织制定并认证
 
 #### [English](README.md) | 简体中文
 

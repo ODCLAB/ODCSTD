@@ -1,6 +1,6 @@
-# odcstd - Organized, Developed and Certified by ODCLAB
+# ODCSTD - Organized, Developed and Certified by ODCLAB
 
-#### English| [简体中文](README_zh-cn.md) 
+#### English| [简体中文](README_zh-cn.md)
 
 Systematize the scattered **ODCLAB work standards** and combine self-original experience with the essence of previous experience. This set of standards has been continuously improved and will cover creative fields such as **programming development**, **media production**,  **product operation** and so on.
 
