@@ -1,4 +1,4 @@
-##### English | [简体中文](https://github.com/ODCLAB/odcstd/blob/main/zh-cn/源码排版.md)
+##### English | [简体中文](https://github.com/ODCLAB/ODCSTD/blob/main/zh-cn/源码排版.md)
 
 ## ✒Name
 
@@ -247,6 +247,16 @@
 
 
 
+## 💾Preprocessing
+
+```mermaid
+graph LR
+A["#include"] --> B["#define"]
+C{"#define"} --> D["numeric constant macro"] --> E["string constant macro"] --> F["parameterized constant macros"]
+```
+
+
+
 ## 📗Import
 
 ```mermaid
@@ -267,7 +277,7 @@ C{Cpp} --> D[associated header] --> E[C std header] --> F[C++ std header] --> G[
     void GetStates(char* users,char* operatingSystem="Windows10"); \\TODO:param<operatingSystem>:Must be devepended on users devices, maybe need to construct a function to judge the users operating system.
     ```
 
-- If the third-party library contained in the referenced library is required in the main source code, then a comment declaration is required in the main source code.
+- If the third-party library contained in the referenced library is required in the main source code, then a comment declaration is required in the main source code, immediately after the `#include` section.
 
     ```cpp
     //header.hpp
