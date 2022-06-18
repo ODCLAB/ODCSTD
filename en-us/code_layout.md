@@ -11,17 +11,18 @@
 <table>
 	<tr>
     	<th>Pascal-Case</th>
-        <td>class（member & method）, struct, union, namespace, enum, function</td>
+        <td>class(function pointer type member & method), struct, union, namespace, enum, function</td>
     </tr>    
     <tr>
     	<th>Camel-Case</th>
-        <td>var, parameter, object</td>
+        <td>class(normal member), var, parameter, object</td>
     </tr>
     <tr>
     	<th>Capitalize the First Letter with Google-Style</th>
         <td>macro, constant, enum<br/><code>#define CONSTANT_VALUE</code></td>
     </tr>	
 </table>
+
 
 
 - Hungarian notation for main names related to Windows APIs.
@@ -158,9 +159,10 @@
 
     ```cpp
     class C_Class{
-        int m_Member; //member
+        int m_member; //normal member
+        void (*m_Member);
         ...
-
+    
         void Function{
             ...
         } //method
