@@ -11,17 +11,18 @@
 <table>
 	<tr>
     	<th>Pascal-Case</th>
-        <td>class(function pointer type member & method), struct, union, namespace, enum, function</td>
+        <td>class(self & function pointer type member & method), struct(self & function pointer type member), union(self & function pointer type member), namespace, enum, function</td>
     </tr>    
     <tr>
     	<th>Camel-Case</th>
-        <td>class(normal member), var, parameter, object</td>
+        <td>class(normal member), struct(normal member), union(normal member), var, parameter, object</td>
     </tr>
     <tr>
     	<th>Capitalize the First Letter with Google-Style</th>
         <td>macro, constant, enum<br/><code>#define CONSTANT_VALUE</code></td>
     </tr>	
 </table>
+
 
 
 
