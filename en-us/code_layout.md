@@ -268,6 +268,23 @@ A[standard library/built-in library] --> B[project-made library]
 C{Cpp} --> D[associated header] --> E[C std header] --> F[C++ std header] --> G[third-party header] --> H[project other header]   
 ```
 
+## 🏗️Construct
+
+- Function
+
+  <table>
+      <tr>
+          <th>Input-type Param</th>
+          <td><code>const</code> as declaration prefix</td>
+      </tr>
+      <tr>
+          <th>Output-type Param</th>
+          <td>use references instead of pointers whenever possible</td>
+      </tr>
+  </table>
+
+
+
 ## 💬Notes
 
 - Comments are only in English. 

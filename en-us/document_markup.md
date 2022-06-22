@@ -2,13 +2,26 @@
 
 ## 🔖Symbol
 
-| Shape | Mean                | Explain                                   |
-| ----- | ------------------- | ----------------------------------------- |
-| %%    | var                 | something enclosed is the var description |
-| +     | link                | leave blank before and after              |
-| “”    | unchanged or stress |                                           |
-| =>    | enlarge detail      | leave blank before and after              |
+- Word
 
+    | Shape | Mean                | Explain                                   |
+    | ----- | ------------------- | ----------------------------------------- |
+    | %%    | var                 | something enclosed is the var description |
+    | +     | link                | leave blank before and after              |
+    | “”    | unchanged or stress |                                           |
+    | =>    | enlarge detail      | leave blank before and after              |
+
+    
+
+- Graph
+
+  | Shape                     | Mean                     |
+  | ------------------------- | ------------------------ |
+  | single line without arrow | equal-level relationship |
+  | pointer with arrow        | affiliated relationship  |
+  
+  
+  
 - Omit relevant content in code blocks.
 
   ```
