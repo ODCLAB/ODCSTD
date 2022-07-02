@@ -156,6 +156,16 @@
 
 ### Prefix
 
+<table>
+    <tr>
+        <th>Gobol</th>
+        <td><code>int g_name;</code></td>
+    </tr>
+    <tr>
+        <th>Static</th>
+        <td><code>int s_name</code></td>
+</table>
+
 - Class
 
     ```cpp
@@ -211,27 +221,6 @@
     }
     ```
 
-- Object
-
-    <table>
-        <tr>
-            <th>Class</td>
-            <td><code>C_Class c_object;</code></td>
-        </tr>
-        <tr>
-            <th>Struct</th>
-            <td><code>S_Struct s_object;</code></td>
-        </tr>
-        <tr>
-            <th>Union</th>
-            <td><code>U_Union u_object;</code></td>
-        </tr>
-        <tr>
-            <th>Enum</th>
-            <td><code>E_Enum e_object;</code></td>
-        </tr>
-    </table>
-    
 - Var
 
     ```cpp
@@ -240,14 +229,6 @@
     int id; //Act as first word in all lowercase.
     int varID; //Do not act as the first word in all caps.
     ```
-
-    <table>
-        <tr>
-            <th>Gobol</th>
-            <td><code>int g_var;</code></td>
-        </tr>
-    </table>
-
 
 
 ## 💾Preprocessing

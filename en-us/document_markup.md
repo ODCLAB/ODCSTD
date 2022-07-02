@@ -1,4 +1,4 @@
-##### English | [简体中文](https://github.com/ODCLAB/ODCSTD/blob/main/zh-cn/文件标记.md)
+##### English | [简体中文](https://github.com/ODCLAB/ODCSTD/blob/main/zh-cn/文档标记.md)
 
 ## 🔖Symbol
 
