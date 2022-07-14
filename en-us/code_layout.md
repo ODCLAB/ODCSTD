@@ -266,11 +266,33 @@ C{Cpp} --> D[associated header] --> E[C std header] --> F[C++ std header] --> G[
 
 
 
-## 💬Notes
+## 💬Comment
+
+| Right Side                                      | Above Side                              |
+| ----------------------------------------------- | --------------------------------------- |
+| Single line of code (with one space in between) | Code block (leave a line after the end) |
+
+```cpp
+/* Top-level header independent comments */
+/* * First-level subtitle independent comments */
+
+/* Single line of code */
+int var; //This is a var of type int.
+
+/* Code block */
+int function(){
+    //Count the number of for loops.
+    int loop = 0;
+    for(int i=0;i<6;i++){
+    	loop ++;    
+    }
+    
+    int reLoop = 0;
+    loop = reLoop;
+}
+```
 
 - Comments are only in English. 
-
-- Leave a space between the comment symbol and the code.
 
 - When you find that you need to be excluded or there are hidden dangers in the code, if you do not solve it immediately, you should immediately mark the `TODO:` comment next to the code.
 
