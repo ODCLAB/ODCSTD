@@ -28,7 +28,7 @@
   <table>
       <tr>
       	<th>Top Left*</th>
-          <td>optional</td>
+          <td>necessary</td>
       </tr>
   </table>
 
