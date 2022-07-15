@@ -20,14 +20,26 @@
   | single line without arrow | equal-level relationship |
   | pointer with arrow        | affiliated relationship  |
   
+
+
+
+- Menu
+
+  <table>
+      <tr>
+      	<th>Top Left*</th>
+          <td>optional</td>
+      </tr>
+  </table>
+
   
-  
+
 - Omit relevant content in code blocks.
 
   ```
   ...
   ```
-  
+
   
 
 ## 📌Stamp
