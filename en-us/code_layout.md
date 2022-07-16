@@ -303,16 +303,24 @@ int function(){
 - If the third-party library contained in the referenced library is required in the main source code, then a comment declaration is required in the main source code, immediately after the `#include` section.
 
     ```cpp
-    //header.hpp
+    /* header.hpp */
     #include <iostream>
+    
+    #include "lib/Library.lib"
+    
+    #pragma comment(lib,"Lib/Library.lib")
     ```
-
+    
     ```cpp
-    //main.cpp
+    /* main.cpp */
     #include "./header.hpp"
     
     /*
     #include <iostream>
+    
+    #include "lib/Library.lib"
+    
+    #pragra comment(lib,"Lib/Library.lib")
     */
     
     int main(){
