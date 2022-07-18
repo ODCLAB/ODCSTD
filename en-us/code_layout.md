@@ -263,8 +263,18 @@ C{Cpp} --> D[associated header] --> E[C std header] --> F[C++ std header] --> G[
           <td>use references instead of pointers whenever possible</td>
       </tr>
   </table>
-
-
+  
+  For input-type pointer action param:
+  
+  ```cpp
+  void Function(const int &param){
+      ...
+      const_cast<int &>(param)...
+      ...
+  }
+  ```
+  
+  
 
 ## 💬Comment
 
