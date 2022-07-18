@@ -251,21 +251,19 @@ C{Cpp} --> D[associated header] --> E[C std header] --> F[C++ std header] --> G[
 
 ## 🏗️Construct
 
-- Function
+<table>
+    <tr>
+        <th>Input-type Param</th>
+        <td><code>const</code> as declaration prefix</td>
+    </tr>
+    <tr>
+        <th>Output-type Param</th>
+        <td>use references instead of pointers whenever possible</td>
+    </tr>
+</table>
 
-  <table>
-      <tr>
-          <th>Input-type Param</th>
-          <td><code>const</code> as declaration prefix</td>
-      </tr>
-      <tr>
-          <th>Output-type Param</th>
-          <td>use references instead of pointers whenever possible</td>
-      </tr>
-  </table>
-  
-  For input-type pointer action param:
-  
+- Input-type pointer action param
+
   ```cpp
   void Function(const int &param){
       ...
@@ -273,8 +271,12 @@ C{Cpp} --> D[associated header] --> E[C std header] --> F[C++ std header] --> G[
       ...
   }
   ```
-  
-  
+- Full output param
+  ```cpp
+  void Function(int &param){
+      
+  }
+
 
 ## 💬Comment
 
