@@ -267,14 +267,15 @@ C{Cpp} --> D[associated header] --> E[C std header] --> F[C++ std header] --> G[
   ```cpp
   void Function(const int &param){
       ...
-      const_cast<int &>(param)...
+      const_cast<int &>(param)... //write
+      param... //read-only
       ...
   }
   ```
 - Full output param
   ```cpp
   void Function(int &param){
-      
+      ...
   }
 
 
