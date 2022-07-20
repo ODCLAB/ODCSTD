@@ -281,9 +281,9 @@ C{Cpp} --> D[associated header] --> E[C std header] --> F[C++ std header] --> G[
 
 ## 💬Comment
 
-| Right Side                                      | Above Side                              |
-| ----------------------------------------------- | --------------------------------------- |
-| Single line of code (with one space in between) | Code block (leave a line after the end) |
+| Right Side                                      | Above Side                                                   |
+| ----------------------------------------------- | ------------------------------------------------------------ |
+| Single line of code (with one space in between) | Code block (if there is no obvious space after the end, leave a line) |
 
 ```cpp
 /* Top-level header independent comments */
