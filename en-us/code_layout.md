@@ -251,6 +251,8 @@ C{Cpp} --> D[associated header] --> E[C std header] --> F[C++ std header] --> G[
 
 ## 🏗️Construct
 
+Source files of non-shared code do not need associated header files.
+
 <table>
     <tr>
         <th>Input-type Param</th>
