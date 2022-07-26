@@ -280,6 +280,15 @@ Source files of non-shared code do not need associated header files.
       ...
   }
 
+- Optional output param
+
+  ```cpp
+  void Function(int *param = NULL){
+      ...
+  }
+  ```
+
+  
 
 ## 💬Comment
 
