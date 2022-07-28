@@ -11,8 +11,6 @@
     | “”    | unchanged or stress |                                           |
     | =>    | enlarge detail      | leave blank before and after              |
 
-    
-
 - Graph
 
   | Shape                     | Mean                     |
@@ -20,8 +18,6 @@
   | single line without arrow | equal-level relationship |
   | pointer with arrow        | affiliated relationship  |
   
-
-
 
 - Menu
 
@@ -31,8 +27,6 @@
           <td>optional except those marked as required</td>
       </tr>
   </table>
-
-  
 
 - Omit relevant content in code blocks.
 
@@ -76,8 +70,6 @@
       </tr>
   </table>
 
-
-
 ## Layout
 
 - Latin
@@ -112,6 +104,8 @@
   ```
 
 - Tables for non-special cases, no periods, all phrases.
+
+
 
 ## 📝OMA-Object Description
 
