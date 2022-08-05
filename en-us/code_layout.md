@@ -252,6 +252,8 @@ C{Cpp} --> D[associated header] --> E[C std header] --> F[C++ std header] --> G[
 
 Source files of non-shared code do not need associated header files.
 
+Fragments of non-shared code which are in source files containing shared code do not need to include declarations in header files.
+
 ### Function
 
 <table>
